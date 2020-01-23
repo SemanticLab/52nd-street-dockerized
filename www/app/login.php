@@ -25,8 +25,8 @@
 			require 'vendor/tmhOAuth/tmhOAuth.php';
 			require 'vendor/tmhOAuth/tmhUtilities.php';	
 			$tmhOAuth = new tmhOAuth(array(
-			  'consumer_key'    => 'arjXd91zxhWGg3FKleHFg',
-			  'consumer_secret' => 'jlSrtz1ZeVKYLVjooMZc6ZTUcbCToS3iPOoXVtEnE',
+			  'consumer_key'    => '',
+			  'consumer_secret' => '',
 			));			
 			
 			$this->here = tmhUtilities::php_self();			
@@ -161,8 +161,8 @@
 		private function facebookConstruct(){			
 			require 'vendor/facebook/facebook.php';
 			$facebook = new Facebook(array(
-			  'appId'  => '203921879738163',
-			  'secret' => '6cd98419ee53fa1574eb2b60e5d954ca',
+			  'appId'  => '',
+			  'secret' => '',
 			  'cookie' => true,
 			));
 			
